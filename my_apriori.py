@@ -167,7 +167,7 @@ def recommend_movies_by_title_search_general(keyword, movies_df):
         for _, row in matching_movies.iterrows():
             result += f"Film ID: {row['movieId']}, Film Adı: {row['title']}\n"
     else:
-        result = f"'{keyword}' kelimesini içeren film bulunamadı.\n"
+        result = f"'{keyword}' kelimesini içeren film bulunamadıı.\n"
 
     return result
 
